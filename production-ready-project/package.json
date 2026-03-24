@@ -1,0 +1,39 @@
+{
+  "name": "production-ready-project",
+  "version": "1.0.0",
+  "description": "A production-ready application built with TypeScript and Express.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/production-ready-project.git"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "node",
+    "production-ready"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.8",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
